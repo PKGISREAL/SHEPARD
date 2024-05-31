@@ -27,7 +27,7 @@ print("Среднее арифметическое {0}".format(mean))
 first_string = "Вторник"
 second_string = "Понедельник"
 
-print("{0},{1}".format(first_string,second_string))
+print("{0},{1}".format(second_string,first_string))
 
 # 5. Задача "Сложная формула".
 
@@ -35,6 +35,6 @@ a = 50
 b = 57
 c = 38
 
-f = (a * b) + (a * c) # = 4750
+f = (((a * b) + (a * c))**3)/2 # = 53585937500
 
 print("Результат сложной формулы = {0}".format(f))
