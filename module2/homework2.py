@@ -1,3 +1,5 @@
+#Тема "Опреатор if" (с добавлением циклов)
+
 first, second, third = [int(input()) for x in range(3)]
 
 if first == second == third:
